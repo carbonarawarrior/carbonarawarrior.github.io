@@ -9,12 +9,26 @@
 
   <link rel="stylesheet" type="text/css" href="gruvbox-dark.css" id="stylesheet"/>
   <link rel="icon" href="favicon.png">
+  <script type="module" src="https://md-block.verou.me/md-block.js"></script>
 </head>
 
 <body>
+  <div class="sidebar">
+    <h1>Theo's Pages</h1>
 
-  <h1>This is a pretty generic website rn</h1>
-  <button onclick="toggleTheme()">Light Theme</button>
+
+
+
+
+
+    <button onclick="toggleTheme()" id="toggleButton">Dark</button>
+  </div>
+  <div class="content" id="markdown-container">  
+    <md-block>
+        # Heading
+        text **bold** *italics*
+    </md-block>
+  </div>
 
   <script src="script.js"></script>
 </body>

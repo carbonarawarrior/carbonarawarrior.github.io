@@ -1,5 +1,33 @@
+* {
+  * margin: 0;
+  * box-sizing: border-box;
+}
+
+
+
+
 body {
   padding: 0px;
-  background-color: var(--bg_s);
+  display: grid;
+  grid-template-columns: 19.0985% 80.9015%;
+  grid-template-rows: auto;
+  background-color: var(--bg_h);
   color: var(--fg);
 }
+#toggleButton {
+  border: 3px solid var(--gray);
+  background-color: var(--gray-dim);
+  align-self: end;
+}
+.sidebar {
+  margin: 10px;
+  padding: 0px 10px;
+  background-color: var(--bg_s);
+}
+
+.content {
+  display: block;
+  margin: 10px;
+  background-color: var(--bg_s);
+}
+
