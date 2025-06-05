@@ -29,5 +29,6 @@ body {
   display: block;
   margin: 10px;
   background-color: var(--bg_s);
+  text-align: center;
 }
 
