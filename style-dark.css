@@ -1,0 +1,7 @@
+@import "gruvbox-dark.css";
+
+body {
+  padding: 0px;
+  background-color: var(--bg_s);
+  color: var(--fg);
+}
