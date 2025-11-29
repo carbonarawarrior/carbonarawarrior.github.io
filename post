@@ -1,0 +1,14 @@
+#!/bin/bash
+
+POST=./_posts/"$(date +%Y)-$(date +%m)-$(date +%d)-$1.md"
+
+touch $POST
+
+echo "---"         > $POST
+echo "title: $1"  >> $POST
+echo "---"        >> $POST
+
+echo "\n"         >> $POST
+echo "# $1"       >> $POST
+
+/usr/bin/nvim $POST
